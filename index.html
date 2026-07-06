@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revista Atual</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <div>
+        <p class="tag">Revista digital</p>
+        <h1>Revista Atual</h1>
+        <p class="subtitulo">Notícias, famosos, moda, tendências e entretenimento em um só lugar.</p>
+      </div>
+      <button id="btnAtualizar" class="btn-principal">Atualizar</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="busca-card">
+      <label for="busca">Buscar assunto</label>
+      <div class="busca-linha">
+        <input id="busca" type="search" placeholder="Ex: Brasil, moda, celebridades, tecnologia..." />
+        <button id="btnBuscar">Buscar</button>
+      </div>
+      <p class="aviso">O app mostra chamadas e links para as fontes originais, sem copiar matérias completas.</p>
+    </section>
+
+    <nav class="categorias" aria-label="Categorias">
+      <button class="categoria ativa" data-query="Brazil OR Brasil">Brasil</button>
+      <button class="categoria" data-query="world news OR international">Mundo</button>
+      <button class="categoria" data-query="celebrity OR celebrities OR famosos">Famosos</button>
+      <button class="categoria" data-query="fashion OR moda OR trends">Moda</button>
+      <button class="categoria" data-query="entertainment OR cinema OR music">Entretenimento</button>
+      <button class="categoria" data-query="technology OR tecnologia">Tecnologia</button>
+    </nav>
+
+    <section class="status" id="status">Carregando notícias...</section>
+    <section class="grid" id="noticias"></section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>© Revista Atual — conteúdo exibido com título, imagem, fonte e link original.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
