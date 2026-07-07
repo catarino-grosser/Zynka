@@ -22,7 +22,7 @@ const ANUNCIOS_ZYNKA = [
   {
     ativo: true,
     titulo: "Tarot Virtual",
-    descricao: "Faça sua pergunta online e receba uma resposta por apenas R$ 1,00.",
+    descricao: "Faça sua pergunta online As Cartas Respondem apenas R$ 1,00.",
     imagem: "ads/tarot-virtual.svg",
     botao: "Jogar agora",
     link: "https://app-oraculodotarot.netlify.app/"
