@@ -52,7 +52,7 @@ const ANUNCIOS_ZYNKA = [
     link: "https://SEU-LINK-AQUI.com"
   },
   {
-    ativo: true,
+    ativo: false,
     titulo: "Biblioteca Virtual",
     descricao: "Leia e-books online em uma biblioteca digital simples e bonita.",
     imagem: "ads/biblioteca-virtual.svg",
