@@ -52,7 +52,7 @@ const ANUNCIOS_ZYNKA = [
     link: "https://acaidocatarino.netlify.app/"
   },
   {
-    ativo: false,
+    ativo: true,
     titulo: "HBN",
     descricao: "Região de Garopaba,  viagens intermunicipais.",
     imagem: "ads/hbn.svg",
