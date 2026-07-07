@@ -21,7 +21,7 @@ const ANUNCIOS_ZYNKA = [
   },
   {
     ativo: true,
-    titulo: "Tarot Virtual",
+    titulo: "Oráculo do Tarot",
     descricao: "Faça sua pergunta online As Cartas Respondem apenas R$ 1,00.",
     imagem: "ads/tarot-virtual.svg",
     botao: "Jogar agora",
