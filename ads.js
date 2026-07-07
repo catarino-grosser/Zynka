@@ -17,7 +17,7 @@ const ANUNCIOS_ZYNKA = [
     descricao: "Construção, reformas e soluções para transformar seu projeto em realidade.",
     imagem: "ads/eco-construcoes.svg",
     botao: "Conhecer",
-    link: "https://SEU-LINK-AQUI.com"
+    link: "https://catarino-grosser.github.io/Eco-construcoes/"
   },
   {
     ativo: true,
@@ -25,7 +25,7 @@ const ANUNCIOS_ZYNKA = [
     descricao: "Faça sua pergunta online e receba uma resposta por apenas R$ 1,00.",
     imagem: "ads/tarot-virtual.svg",
     botao: "Jogar agora",
-    link: "https://SEU-LINK-AQUI.com"
+    link: "https://app-oraculodotarot.netlify.app/"
   },
   {
     ativo: true,
@@ -33,7 +33,7 @@ const ANUNCIOS_ZYNKA = [
     descricao: "Um app para conversar, desabafar e ter companhia quando precisar.",
     imagem: "ads/ted.svg",
     botao: "Acessar",
-    link: "https://meuamigovirtual.netlify.app"
+    link: "https://meuamigoted.netlify.app"
   },
   {
     ativo: true,
@@ -49,7 +49,7 @@ const ANUNCIOS_ZYNKA = [
     descricao: "Açaí na praia, sabor de verão e atendimento especial em Garopaba.",
     imagem: "ads/acai-catarino.svg",
     botao: "Conhecer",
-    link: "https://SEU-LINK-AQUI.com"
+    link: "https://acaidocatarino.netlify.app/"
   },
   {
     ativo: false,
@@ -60,7 +60,7 @@ const ANUNCIOS_ZYNKA = [
     link: "https://SEU-LINK-AQUI.com"
   },
   {
-    ativo: true,
+    ativo: false,
     titulo: "Padrão Segurança",
     descricao: "Portaria, segurança e organização para condomínios e empresas.",
     imagem: "ads/padrao-seguranca.svg",
