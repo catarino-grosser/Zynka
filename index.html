@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zynka Magazine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="tag">REVISTA DIGITAL</div>
+    <h1>Zynka Magazine</h1>
+    <p>Notícias, famosos, moda, tendências e entretenimento em um só lugar.</p>
+    <button id="refreshBtn">Atualizar notícias</button>
+  </header>
+
+  <main>
+    <section id="topAd" class="top-ad" aria-label="Publicidade em destaque"></section>
+
+    <section class="search-card">
+      <h2>Buscar assunto</h2>
+      <input id="searchInput" type="search" placeholder="Ex: Brasil, moda, celebridades, tecnologia..." />
+      <button id="searchBtn">Buscar</button>
+      <p>Exibimos chamadas, fontes e links originais. Não copiamos matérias completas.</p>
+    </section>
+
+    <nav class="tabs" aria-label="Categorias">
+      <button class="tab active" data-query="Brasil">Brasil</button>
+      <button class="tab" data-query="Mundo">Mundo</button>
+      <button class="tab" data-query="celebridades famosos">Famosos</button>
+      <button class="tab" data-query="moda tendências">Moda</button>
+      <button class="tab" data-query="entretenimento cinema tv música">Entretenimento</button>
+      <button class="tab" data-query="tecnologia inteligência artificial">Tecnologia</button>
+    </nav>
+
+    <section id="partners" class="partners" aria-label="Parceiros do Zynka"></section>
+
+    <section id="status" class="status">Carregando notícias...</section>
+    <section id="featured" class="featured"></section>
+    <section id="newsGrid" class="grid"></section>
+  </main>
+
+  <footer>
+    <strong>Zynka Magazine</strong><br />
+    Conteúdo exibido com título, fonte, resumo e link original. Anúncios próprios identificados como publicidade.
+  </footer>
+
+  <script src="ads.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
