@@ -14,7 +14,7 @@ const ANUNCIOS_ZYNKA = [
   {
     ativo: true,
     titulo: "Eco Construções",
-    descricao: "Construção, reformas e soluções para transformar seu projeto em realidade.",
+    descricao: "Região de Garopaba Construção, reformas e soluções para transformar seu projeto em realidade.",
     imagem: "ads/eco-construcoes.svg",
     botao: "Conhecer",
     link: "https://catarino-grosser.github.io/Eco-construcoes/"
