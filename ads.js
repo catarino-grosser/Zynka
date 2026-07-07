@@ -53,11 +53,11 @@ const ANUNCIOS_ZYNKA = [
   },
   {
     ativo: false,
-    titulo: "Biblioteca Virtual",
-    descricao: "Leia e-books online em uma biblioteca digital simples e bonita.",
-    imagem: "ads/biblioteca-virtual.svg",
+    titulo: "HBN",
+    descricao: "Região de Garopaba,  viagens intermunicipais.",
+    imagem: "ads/hbn.svg",
     botao: "Ler agora",
-    link: "https://SEU-LINK-AQUI.com"
+    link: "https://benisiagrosser.netlify.app/"
   },
   {
     ativo: false,
