@@ -64,7 +64,7 @@ const ANUNCIOS_ZYNKA = [
     titulo: "Zynka Games",
     descricao: "Centenas de jogos em um só lugar! Explore aventuras, desafios e diversão para todas as idades. Jogue gratuitamente e descubra seu próximo game favorito.",
     imagem: "ads/padrao-seguranca.svg",
-    botao: "Saiba mais",
+    botao: "Jogar Agora",
     link: "https://zynkagames.netlify.app/"
   }
 ];
