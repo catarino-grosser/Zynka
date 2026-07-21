@@ -22,7 +22,7 @@ const ANUNCIOS_ZYNKA = [
   {
     ativo: true,
     titulo: "Oráculo do Tarot",
-    descricao: "Faça sua pergunta online As Cartas Respondem apenas R$ 1,00.",
+    descricao: "Descubra o que as cartas revelam para você! 🔮 Faça sua consulta de Tarot online de forma rápida, prática e por apenas R$ 1 por pergunta. Acesse agora e encontre as respostas que procura!",
     imagem: "ads/tarot-virtual.svg",
     botao: "Jogar agora",
     link: "https://app-oraculodotarot.netlify.app/"
